@@ -1,0 +1,213 @@
+/* Font Style */
+.jost {
+     font-family: "Jost", sans-serif;
+}
+
+.spacemono {
+     font-family: "Space Mono", monospace;
+}
+
+/* style */
+
+body {
+     overflow-x: hidden;
+     font-family: "Jost", sans-serif;
+}
+
+a {
+     text-decoration: none;
+}
+
+.navbar-custom {
+     background-color: #181a1b;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+     color: rgba(255, 255, 255, 0.7);
+}
+
+.font-grey {
+     color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-nav .nav-item .nav-link {
+     transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+     color: #0a58ca;
+}
+
+.hero {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     gap: 2.5rem;
+     justify-content: center;
+     min-height: 100vh;
+     padding: 0 2rem;
+     position: relative;
+}
+
+.hero .hero-img {
+     background-image: url(../img/prism.png);
+     inset: 0;
+     position: absolute;
+     z-index: -1;
+}
+
+.hero .title {
+     color: #fff;
+     font-size: 4rem;
+}
+
+.hero h1 {
+     text-shadow: 0 4px 10px black;
+}
+
+.hero .desc {
+     color: #fff;
+}
+
+.about {
+     min-height: auto;
+     padding: 5rem 2rem;
+     position: relative;
+}
+
+.about .hero-img {
+     background-color: #242424;
+     background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     inset: 0;
+     position: absolute;
+     z-index: -1;
+}
+
+.about .title {
+     color: #fff;
+     font-size: 3rem;
+     margin: 0;
+}
+
+.about .desc {
+     color: #fff;
+     text-align: justify;
+}
+
+.about img {
+     width: 350px;
+     height: 350px;
+     object-fit: cover;
+}
+
+.skill {
+     height: auto;
+     padding: 5rem 2rem;
+     position: relative;
+}
+
+.skill .title {
+     color: #fff;
+     font-size: 3rem;
+     margin: 0;
+}
+
+.skill .hero-img {
+     background-color: #181a1b;
+     background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     inset: 0;
+     position: absolute;
+     z-index: -1;
+}
+
+.card {
+     transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 6px 18px black;
+}
+
+.projects {
+     min-height: auto;
+     padding: 5rem 2rem;
+     position: relative;
+}
+
+.projects .hero-img {
+     background-color: #242424;
+     background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     inset: 0;
+     position: absolute;
+     z-index: -1;
+}
+
+.projects .title {
+     color: #fff;
+     font-size: 3rem;
+     margin: 0;
+}
+
+.contact {
+     min-height: auto;
+     padding: 5rem 2rem 8rem;
+     position: relative;
+}
+
+.contact .hero-img {
+     background-color: #181a1b;
+     background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     inset: 0;
+     position: absolute;
+     z-index: -1;
+}
+
+.contact .title {
+     color: #fff;
+     font-size: 3rem;
+     margin: 0;
+}
+
+.contact .container {
+     color: #fff;
+     max-width: 500px;
+}
+
+.contact .container button {
+     background-color: #0a58ca;
+     color: black;
+     border: #fff;
+}
+
+footer {
+     background-color: #181a1b;
+}
+
+footer a {
+     color: white;
+}
+
+footer a:hover {
+     color: #0a58ca;
+}
+
+/* Style pada mobile */
+@media screen and (max-width: 640px) {
+     .skill h5 {
+          width: 64px;
+     }
+}
+
+/* Style pada tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
