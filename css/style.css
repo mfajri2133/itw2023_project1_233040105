@@ -36,7 +36,7 @@ a {
 
 .navbar-nav .nav-item .nav-link.active,
 .navbar-nav .nav-item .nav-link:hover {
-     color: #0a58ca;
+     color: #67fd67;
 }
 
 .hero {
@@ -184,7 +184,7 @@ a {
 }
 
 .contact .container button {
-     background-color: #0a58ca;
+     background-color: #67fd67;
      color: black;
      border: #fff;
 }
@@ -198,7 +198,7 @@ footer a {
 }
 
 footer a:hover {
-     color: #0a58ca;
+     color: #67fd67;
 }
 
 /* Style pada mobile */
