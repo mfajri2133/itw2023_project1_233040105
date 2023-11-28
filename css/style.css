@@ -7,6 +7,14 @@
      font-family: "Space Mono", monospace;
 }
 
+html {
+     scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+     display: none;
+}
+
 /* style */
 
 body {

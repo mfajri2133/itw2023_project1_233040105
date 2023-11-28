@@ -25,3 +25,5 @@ window.onscroll = function () {
           navbar.classList.remove("show");
      }
 };
+
+document.body.addEventListener("click", closeDropdown);

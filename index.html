@@ -115,12 +115,6 @@
                               future, and that's why I chose to pursue a degree
                               in this field.
                               <br /><br />
-                              Ever since I first touched the world of
-                              programming, I was immediately captivated by the
-                              complexity and creativity involved. Programming to
-                              me is not just a series of codes, but also the art
-                              of creating effective and efficient solutions.
-                              <br /><br />
                               My experience in creating websites has enriched my
                               learning journey. I have been involved in several
                               web development projects, ranging from personal
@@ -143,7 +137,7 @@
                <h2 class="title spacemono text-center fw-bold">My skills</h2>
                <div class="container pt-5">
                     <div class="row gx-3 gy-3">
-                         <div class="col">
+                         <div class="col-12 col-md-4">
                               <a href="https://laravel.com/">
                                    <div class="card">
                                         <img
@@ -157,7 +151,7 @@
                               </a>
                          </div>
 
-                         <div class="col">
+                         <div class="col-12 col-md-4">
                               <a href="https://vuejs.org/">
                                    <div class="card">
                                         <img
@@ -171,7 +165,7 @@
                               </a>
                          </div>
 
-                         <div class="col">
+                         <div class="col-12 col-md-4">
                               <a href="https://www.php.net/">
                                    <div class="card">
                                         <img
@@ -190,75 +184,127 @@
 
           <section id="projects" class="projects">
                <div class="hero-img"></div>
-               <h2 class="title spacemono text-center fw-bold">Projects</h2>
-               <div class="container pt-5">
-                    <div class="row gx-3 gy-3">
-                         <div class="col-md-6">
-                              <a href="https://antarasuara.com/">
-                                   <div class="card">
-                                        <img
-                                             src="img/antarasuara-page.png"
-                                             class="card-img-top"
-                                        />
-                                        <div class="card-body">
-                                             <h5 class="card-title">
-                                                  Antara Suara
-                                             </h5>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
+               <h2 class="title spacemono text-center fw-bold pb-5">
+                    Projects
+               </h2>
 
-                         <div class="col-md-6">
-                              <a href="https://www.apps-cikampek.com/">
-                                   <div class="card">
-                                        <img
-                                             src="img/ftc-page.png"
-                                             class="card-img-top"
-                                        />
-                                        <div class="card-body">
-                                             <h5 class="card-title">
-                                                  Fuel Terminal Cikampek
-                                             </h5>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
-
-                         <div class="col-md-6">
-                              <a
-                                   href="https://simanja.dishub.purwakartakab.go.id/auth/login"
-                              >
-                                   <div class="card">
-                                        <img
-                                             src="img/rijj-page.png"
-                                             class="card-img-top"
-                                        />
-                                        <div class="card-body">
-                                             <h5 class="card-title">
-                                                  RIJJ Dishub Purwakarta
-                                             </h5>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
-
-                         <div class="col-md-6">
-                              <a href="https://oatdaily.com/">
-                                   <div class="card">
-                                        <img
-                                             src="img/oatdaily-page.png"
-                                             class="card-img-top"
-                                        />
-                                        <div class="card-body">
-                                             <h5 class="card-title">
-                                                  Oat daily
-                                             </h5>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
+               <div
+                    id="carouselExampleAutoplaying"
+                    class="carousel slide container"
+                    data-bs-ride="carousel"
+               >
+                    <div class="carousel-indicators">
+                         <button
+                              type="button"
+                              data-bs-target="#carouselExampleAutoplaying"
+                              data-bs-slide-to="0"
+                              class="active"
+                              aria-current="true"
+                              aria-label="Slide 1"
+                         ></button>
+                         <button
+                              type="button"
+                              data-bs-target="#carouselExampleAutoplaying"
+                              data-bs-slide-to="1"
+                              aria-label="Slide 2"
+                         ></button>
+                         <button
+                              type="button"
+                              data-bs-target="#carouselExampleAutoplaying"
+                              data-bs-slide-to="2"
+                              aria-label="Slide 3"
+                         ></button>
+                         <button
+                              type="button"
+                              data-bs-target="#carouselExampleAutoplaying"
+                              data-bs-slide-to="3"
+                              aria-label="Slide 4"
+                         ></button>
                     </div>
+                    <div class="carousel-inner">
+                         <a href="https://oatdaily.com/">
+                              <div class="carousel-item active">
+                                   <img
+                                        src="img/oatdaily-page.png"
+                                        class="d-block w-100"
+                                        alt="Oat Daily"
+                                   />
+                                   <div
+                                        class="carousel-caption d-none d-md-block"
+                                   >
+                                        <h3>Oat Daily</h3>
+                                   </div>
+                              </div>
+                         </a>
+                         <a href="https://antarasuara.com/">
+                              <div class="carousel-item">
+                                   <img
+                                        src="img/antarasuara-page.png"
+                                        class="d-block w-100"
+                                        alt="Antara Suara"
+                                   />
+                                   <div
+                                        class="carousel-caption d-none d-md-block"
+                                   >
+                                        <h3>Antara Suara</h3>
+                                   </div>
+                              </div>
+                         </a>
+                         <a href="https://apps-cikampek.com/">
+                              <div class="carousel-item">
+                                   <img
+                                        src="img/ftc-page.png"
+                                        class="d-block w-100"
+                                        alt="Fuel Terminal Cikampek"
+                                   />
+                                   <div
+                                        class="carousel-caption d-none d-md-block"
+                                   >
+                                        <h3>Fuel Terminal Cikampek</h3>
+                                   </div>
+                              </div>
+                         </a>
+                         <a
+                              href="https://simanja.dishub.purwakartakab.go.id/auth/login"
+                         >
+                              <div class="carousel-item">
+                                   <img
+                                        src="img/rijj-page.png"
+                                        class="d-block w-100"
+                                        alt="RIJJ Dishub Purwakarta"
+                                   />
+                                   <div
+                                        class="carousel-caption d-none d-md-block"
+                                   >
+                                        <h3>RIJJ Dishub Purwakarta</h3>
+                                   </div>
+                              </div>
+                         </a>
+                    </div>
+                    <button
+                         class="carousel-control-prev"
+                         type="button"
+                         data-bs-target="#carouselExampleAutoplaying"
+                         data-bs-slide="prev"
+                    >
+                         <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                         ></span>
+                         <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                         class="carousel-control-next"
+                         type="button"
+                         data-bs-target="#carouselExampleAutoplaying"
+                         data-bs-slide="next"
+                    >
+                         <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                         ></span>
+                         <span class="visually-hidden">Next</span>
+                    </button>
                </div>
           </section>
 
