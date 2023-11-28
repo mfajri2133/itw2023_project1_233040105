@@ -18,12 +18,3 @@ document.addEventListener("scroll", function () {
           }
      });
 });
-
-window.onscroll = function () {
-     var navbar = document.getElementById("navbarNavDropdown");
-     if (navbar.classList.contains("show")) {
-          navbar.classList.remove("show");
-     }
-};
-
-document.body.addEventListener("click", closeDropdown);
