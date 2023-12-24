@@ -29,6 +29,7 @@
      <body>
           <!-- Navbar -->
           <nav
+               id="navbar-scroll"
                class="navbar navbar-expand-lg navbar-dark navbar-custom poppins px-3 spacemono fixed-top shadow"
           >
                <div class="container-fluid">
@@ -82,342 +83,382 @@
                </div>
           </nav>
 
-          <section id="home" class="hero">
-               <div class="hero-img"></div>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-scroll">
+               <section id="home" class="hero">
+                    <div class="hero-img"></div>
 
-               <h1 class="title spacemono fw-bold">Hey, I'm Fajri!</h1>
-               <div class="desc jost fs-4">
-                    I am an informatics engineering student at Pasundan
-                    University, and I am from Purwakarta.
-               </div>
-          </section>
+                    <h1 class="title spacemono fw-bold">Hey, I'm Fajri!</h1>
+                    <div class="desc jost fs-4">
+                         I am an informatics engineering student at Pasundan
+                         University, and I am from Purwakarta.
+                    </div>
+               </section>
 
-          <section id="about" class="about">
-               <div class="hero-img"></div>
-               <h2
-                    class="title spacemono text-center fw-bold"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-               >
-                    About me
-               </h2>
-               <div
-                    class="container pt-5"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-               >
-                    <div class="row">
-                         <div class="col-auto pt-5">
-                              <img
-                                   class="img-fluid rounded"
-                                   src="img/self.jpg"
+               <section id="about" class="about">
+                    <div class="hero-img"></div>
+                    <h2
+                         class="title spacemono text-center fw-bold"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                    >
+                         About me
+                    </h2>
+                    <div
+                         class="container pt-5"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                    >
+                         <div class="row">
+                              <div class="col-auto pt-5">
+                                   <img
+                                        class="img-fluid rounded"
+                                        src="img/self.jpg"
+                                   />
+                              </div>
+
+                              <div
+                                   class="col desc jost fs-6 align-self-center pt-4"
+                              >
+                                   <h3 class="spacemono fw-semibold">
+                                        Get to know me!
+                                   </h3>
+                                   Hello! My name is Muhamad Fajri, an
+                                   Informatics Engineering student who is
+                                   passionate about exploring the world of
+                                   technology. I believe that technology can be
+                                   a positive force in shaping the future, and
+                                   that's why I chose to pursue a degree in this
+                                   field.
+                                   <br /><br />
+                                   My experience in creating websites has
+                                   enriched my learning journey. I have been
+                                   involved in several web development projects,
+                                   ranging from personal websites to
+                                   collaborative projects with teams. My
+                                   expertise includes using HTML, CSS, and
+                                   JavaScript to create responsive and engaging
+                                   interfaces.
+                                   <br /><br />
+                                   Thank you for visiting my profile. If you are
+                                   interested in collaborating or sharing your
+                                   experience, please feel free to contact me. I
+                                   am always open to new opportunities and the
+                                   chance to keep growing in the world of
+                                   technology.
+                              </div>
+                         </div>
+                    </div>
+               </section>
+
+               <section id="skills" class="skill">
+                    <div class="hero-img"></div>
+                    <h2
+                         class="title spacemono text-center fw-bold"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                    >
+                         My skills
+                    </h2>
+                    <div
+                         class="container pt-5"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                    >
+                         <div
+                              class="row gx-3 gy-3 d-flex justify-content-center"
+                         >
+                              <div class="col-12 col-md-3 col-lg-2">
+                                   <a href="https://www.javascript.com/">
+                                        <div class="card custom-card">
+                                             <img
+                                                  src="img/Javascript.jpg"
+                                                  class="card-img-top"
+                                             />
+                                             <div class="card-body">
+                                                  <h5 class="card-title">
+                                                       Javascript
+                                                  </h5>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-12 col-md-3 col-lg-2">
+                                   <a href="https://tailwindcss.com/">
+                                        <div class="card custom-card">
+                                             <img
+                                                  src="img/Tailwind.jpg"
+                                                  class="card-img-top"
+                                             />
+                                             <div class="card-body">
+                                                  <h5 class="card-title">
+                                                       Tailwind
+                                                  </h5>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-12 col-md-3 col-lg-2">
+                                   <a href="https://getbootstrap.com/">
+                                        <div class="card custom-card">
+                                             <img
+                                                  src="img/Bootstrap.jpg"
+                                                  class="card-img-top"
+                                             />
+                                             <div class="card-body">
+                                                  <h5 class="card-title">
+                                                       Bootstrap
+                                                  </h5>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-12 col-md-3 col-lg-2">
+                                   <a href="https://laravel.com/">
+                                        <div class="card custom-card">
+                                             <img
+                                                  src="img/Laravel.jpg"
+                                                  class="card-img-top"
+                                             />
+                                             <div class="card-body">
+                                                  <h5 class="card-title">
+                                                       Laravel
+                                                  </h5>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-12 col-md-3 col-lg-2">
+                                   <a href="https://vuejs.org/">
+                                        <div class="card custom-card">
+                                             <img
+                                                  src="img/Vue.jpg"
+                                                  class="card-img-top"
+                                             />
+                                             <div class="card-body">
+                                                  <h5 class="card-title">
+                                                       Vue.js
+                                                  </h5>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-12 col-md-3 col-lg-2">
+                                   <a href="https://www.php.net/">
+                                        <div class="card custom-card">
+                                             <img
+                                                  src="img/PHP.jpg"
+                                                  class="card-img-top"
+                                             />
+                                             <div class="card-body">
+                                                  <h5 class="card-title">
+                                                       PHP
+                                                  </h5>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+
+               <section id="projects" class="projects">
+                    <div class="hero-img"></div>
+                    <h2
+                         class="title spacemono text-center fw-bold pb-5"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                    >
+                         Projects
+                    </h2>
+
+                    <div
+                         id="carouselExampleAutoplaying"
+                         data-bs-ride="carousel"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                         class="carousel slide carousel-fade custom-carousel mx-auto"
+                    >
+                         <div class="carousel-indicators">
+                              <button
+                                   type="button"
+                                   data-bs-target="#carouselExampleAutoplaying"
+                                   data-bs-slide-to="0"
+                                   class="active"
+                                   aria-current="true"
+                                   aria-label="Slide 1"
+                              ></button>
+                              <button
+                                   type="button"
+                                   data-bs-target="#carouselExampleAutoplaying"
+                                   data-bs-slide-to="1"
+                                   aria-label="Slide 2"
+                              ></button>
+                              <button
+                                   type="button"
+                                   data-bs-target="#carouselExampleAutoplaying"
+                                   data-bs-slide-to="2"
+                                   aria-label="Slide 3"
+                              ></button>
+                              <button
+                                   type="button"
+                                   data-bs-target="#carouselExampleAutoplaying"
+                                   data-bs-slide-to="3"
+                                   aria-label="Slide 4"
+                              ></button>
+                              <button
+                                   type="button"
+                                   data-bs-target="#carouselExampleAutoplaying"
+                                   data-bs-slide-to="4"
+                                   aria-label="Slide 5"
+                              ></button>
+                         </div>
+                         <div class="carousel-inner">
+                              <a href="https://oatdaily.com/">
+                                   <div class="carousel-item active">
+                                        <img
+                                             src="img/oatdaily-page.png"
+                                             class="d-block w-100"
+                                             alt="Oat Daily"
+                                        />
+                                        <div
+                                             class="carousel-caption d-none d-md-block"
+                                        >
+                                             <h3>Oat Daily</h3>
+                                        </div>
+                                   </div>
+                              </a>
+
+                              <a href="https://antarasuara.com/">
+                                   <div class="carousel-item">
+                                        <img
+                                             src="img/antarasuara-page.png"
+                                             class="d-block w-100"
+                                             alt="Antara Suara"
+                                        />
+                                        <div
+                                             class="carousel-caption d-none d-md-block"
+                                        >
+                                             <h3>Antara Suara</h3>
+                                        </div>
+                                   </div>
+                              </a>
+
+                              <a
+                                   href="https://mfajri2133.github.io/itw2023_project2_233040105/"
+                              >
+                                   <div class="carousel-item">
+                                        <img
+                                             src="img/dhiyamotor-page.png"
+                                             class="d-block w-100"
+                                             alt="Dhiya Motor 67"
+                                        />
+                                        <div
+                                             class="carousel-caption d-none d-md-block"
+                                        >
+                                             <h3>Dhiya Motor 67</h3>
+                                        </div>
+                                   </div>
+                              </a>
+
+                              <a href="https://apps-cikampek.com/">
+                                   <div class="carousel-item">
+                                        <img
+                                             src="img/ftc-page.png"
+                                             class="d-block w-100"
+                                             alt="Fuel Terminal Cikampek"
+                                        />
+                                        <div
+                                             class="carousel-caption d-none d-md-block"
+                                        >
+                                             <h3>Fuel Terminal Cikampek</h3>
+                                        </div>
+                                   </div>
+                              </a>
+
+                              <a
+                                   href="https://simanja.dishub.purwakartakab.go.id/auth/login"
+                              >
+                                   <div class="carousel-item">
+                                        <img
+                                             src="img/rijj-page.png"
+                                             class="d-block w-100"
+                                             alt="RIJJ Dishub Purwakarta"
+                                        />
+                                        <div
+                                             class="carousel-caption d-none d-md-block"
+                                        >
+                                             <h3>RIJJ Dishub Purwakarta</h3>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+               </section>
+
+               <section id="contact" class="contact">
+                    <div class="hero-img"></div>
+                    <h2
+                         class="title spacemono text-center fw-bold"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                    >
+                         Contact me
+                    </h2>
+                    <div
+                         class="container pt-5"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                    >
+                         <div class="mb-3">
+                              <label
+                                   for="exampleFormControlInput1"
+                                   class="form-label"
+                                   >Name</label
+                              >
+                              <input
+                                   type="text"
+                                   class="form-control spacemono"
+                                   id="exampleFormControlInput1"
+                                   placeholder="John Doe"
                               />
                          </div>
-
-                         <div class="col desc jost fs-6 align-self-center pt-4">
-                              <h3 class="spacemono fw-semibold">
-                                   Get to know me!
-                              </h3>
-                              Hello! My name is Muhamad Fajri, an Informatics
-                              Engineering student who is passionate about
-                              exploring the world of technology. I believe that
-                              technology can be a positive force in shaping the
-                              future, and that's why I chose to pursue a degree
-                              in this field.
-                              <br /><br />
-                              My experience in creating websites has enriched my
-                              learning journey. I have been involved in several
-                              web development projects, ranging from personal
-                              websites to collaborative projects with teams. My
-                              expertise includes using HTML, CSS, and JavaScript
-                              to create responsive and engaging interfaces.
-                              <br /><br />
-                              Thank you for visiting my profile. If you are
-                              interested in collaborating or sharing your
-                              experience, please feel free to contact me. I am
-                              always open to new opportunities and the chance to
-                              keep growing in the world of technology.
+                         <div class="mb-3">
+                              <label
+                                   for="exampleFormControlInput1"
+                                   class="form-label"
+                                   >Title</label
+                              >
+                              <input
+                                   type="email"
+                                   class="form-control spacemono"
+                                   id="exampleFormControlInput1"
+                                   placeholder="What you're writing about?"
+                              />
                          </div>
-                    </div>
-               </div>
-          </section>
-
-          <section id="skills" class="skill">
-               <div class="hero-img"></div>
-               <h2
-                    class="title spacemono text-center fw-bold"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-               >
-                    My skills
-               </h2>
-               <div
-                    class="container pt-5"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-               >
-                    <div class="row gx-3 gy-3">
-                         <div class="col-4 col-md-4">
-                              <a href="https://laravel.com/">
-                                   <div class="card">
-                                        <img
-                                             src="img/Laravel.jpg"
-                                             class="card-img-top"
-                                        />
-                                        <div class="card-body">
-                                             <h5 class="card-title">Laravel</h5>
-                                        </div>
-                                   </div>
-                              </a>
+                         <div class="mb-3">
+                              <label
+                                   for="exampleFormControlTextarea1"
+                                   class="form-label"
+                                   >Message</label
+                              >
+                              <textarea
+                                   class="form-control spacemono"
+                                   id="exampleFormControlTextarea1"
+                                   rows="6"
+                                   placeholder="Full message comes here..."
+                              ></textarea>
                          </div>
-
-                         <div class="col-4 col-md-4">
-                              <a href="https://vuejs.org/">
-                                   <div class="card">
-                                        <img
-                                             src="img/Vue.jpg"
-                                             class="card-img-top"
-                                        />
-                                        <div class="card-body">
-                                             <h5 class="card-title">Vue.js</h5>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
-
-                         <div class="col-4 col-md-4">
-                              <a href="https://www.php.net/">
-                                   <div class="card">
-                                        <img
-                                             src="img/PHP.jpg"
-                                             class="card-img-top"
-                                        />
-                                        <div class="card-body">
-                                             <h5 class="card-title">PHP</h5>
-                                        </div>
-                                   </div>
-                              </a>
-                         </div>
+                         <button type="button" class="btn spacemono fw-bold">
+                              Submit
+                         </button>
                     </div>
-               </div>
-          </section>
-
-          <section id="projects" class="projects">
-               <div class="hero-img"></div>
-               <h2
-                    class="title spacemono text-center fw-bold pb-5"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-               >
-                    Projects
-               </h2>
-
-               <div
-                    id="carouselExampleAutoplaying"
-                    class="carousel slide container"
-                    data-bs-ride="carousel"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-               >
-                    <div class="carousel-indicators">
-                         <button
-                              type="button"
-                              data-bs-target="#carouselExampleAutoplaying"
-                              data-bs-slide-to="0"
-                              class="active"
-                              aria-current="true"
-                              aria-label="Slide 1"
-                         ></button>
-                         <button
-                              type="button"
-                              data-bs-target="#carouselExampleAutoplaying"
-                              data-bs-slide-to="1"
-                              aria-label="Slide 2"
-                         ></button>
-                         <button
-                              type="button"
-                              data-bs-target="#carouselExampleAutoplaying"
-                              data-bs-slide-to="2"
-                              aria-label="Slide 3"
-                         ></button>
-                         <button
-                              type="button"
-                              data-bs-target="#carouselExampleAutoplaying"
-                              data-bs-slide-to="3"
-                              aria-label="Slide 4"
-                         ></button>
-                         <button
-                              type="button"
-                              data-bs-target="#carouselExampleAutoplaying"
-                              data-bs-slide-to="4"
-                              aria-label="Slide 5"
-                         ></button>
-                    </div>
-                    <div class="carousel-inner">
-                         <a href="https://oatdaily.com/">
-                              <div class="carousel-item active">
-                                   <img
-                                        src="img/oatdaily-page.png"
-                                        class="d-block w-100"
-                                        alt="Oat Daily"
-                                   />
-                                   <div
-                                        class="carousel-caption d-none d-md-block"
-                                   >
-                                        <h3>Oat Daily</h3>
-                                   </div>
-                              </div>
-                         </a>
-
-                         <a href="https://antarasuara.com/">
-                              <div class="carousel-item">
-                                   <img
-                                        src="img/antarasuara-page.png"
-                                        class="d-block w-100"
-                                        alt="Antara Suara"
-                                   />
-                                   <div
-                                        class="carousel-caption d-none d-md-block"
-                                   >
-                                        <h3>Antara Suara</h3>
-                                   </div>
-                              </div>
-                         </a>
-
-                         <a
-                              href="https://mfajri2133.github.io/itw2023_project2_233040105/"
-                         >
-                              <div class="carousel-item">
-                                   <img
-                                        src="img/dhiyamotor-page.png"
-                                        class="d-block w-100"
-                                        alt="Dhiya Motor 67"
-                                   />
-                                   <div
-                                        class="carousel-caption d-none d-md-block"
-                                   >
-                                        <h3>Dhiya Motor 67</h3>
-                                   </div>
-                              </div>
-                         </a>
-
-                         <a href="https://apps-cikampek.com/">
-                              <div class="carousel-item">
-                                   <img
-                                        src="img/ftc-page.png"
-                                        class="d-block w-100"
-                                        alt="Fuel Terminal Cikampek"
-                                   />
-                                   <div
-                                        class="carousel-caption d-none d-md-block"
-                                   >
-                                        <h3>Fuel Terminal Cikampek</h3>
-                                   </div>
-                              </div>
-                         </a>
-
-                         <a
-                              href="https://simanja.dishub.purwakartakab.go.id/auth/login"
-                         >
-                              <div class="carousel-item">
-                                   <img
-                                        src="img/rijj-page.png"
-                                        class="d-block w-100"
-                                        alt="RIJJ Dishub Purwakarta"
-                                   />
-                                   <div
-                                        class="carousel-caption d-none d-md-block"
-                                   >
-                                        <h3>RIJJ Dishub Purwakarta</h3>
-                                   </div>
-                              </div>
-                         </a>
-                    </div>
-                    <button
-                         class="carousel-control-prev"
-                         type="button"
-                         data-bs-target="#carouselExampleAutoplaying"
-                         data-bs-slide="prev"
-                    >
-                         <span
-                              class="carousel-control-prev-icon"
-                              aria-hidden="true"
-                         ></span>
-                         <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                         class="carousel-control-next"
-                         type="button"
-                         data-bs-target="#carouselExampleAutoplaying"
-                         data-bs-slide="next"
-                    >
-                         <span
-                              class="carousel-control-next-icon"
-                              aria-hidden="true"
-                         ></span>
-                         <span class="visually-hidden">Next</span>
-                    </button>
-               </div>
-          </section>
-
-          <section id="contact" class="contact">
-               <div class="hero-img"></div>
-               <h2
-                    class="title spacemono text-center fw-bold"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-               >
-                    Contact me
-               </h2>
-               <div
-                    class="container pt-5"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-               >
-                    <div class="mb-3">
-                         <label
-                              for="exampleFormControlInput1"
-                              class="form-label"
-                              >Name</label
-                         >
-                         <input
-                              type="text"
-                              class="form-control spacemono"
-                              id="exampleFormControlInput1"
-                              placeholder="John Doe"
-                         />
-                    </div>
-                    <div class="mb-3">
-                         <label
-                              for="exampleFormControlInput1"
-                              class="form-label"
-                              >Title</label
-                         >
-                         <input
-                              type="email"
-                              class="form-control spacemono"
-                              id="exampleFormControlInput1"
-                              placeholder="What you're writing about?"
-                         />
-                    </div>
-                    <div class="mb-3">
-                         <label
-                              for="exampleFormControlTextarea1"
-                              class="form-label"
-                              >Message</label
-                         >
-                         <textarea
-                              class="form-control spacemono"
-                              id="exampleFormControlTextarea1"
-                              rows="6"
-                              placeholder="Full message comes here..."
-                         ></textarea>
-                    </div>
-                    <button type="button" class="btn spacemono fw-bold">
-                         Submit
-                    </button>
-               </div>
-          </section>
+               </section>
+          </div>
 
           <footer class="text-center text-lg-start text-white">
                <section
@@ -433,6 +474,9 @@
                               class="me-4"
                          >
                               <i class="fab fa-instagram"></i>
+                         </a>
+                         <a href="https://wa.me/6282211596326" class="me-4">
+                              <i class="fab fa-whatsapp"></i>
                          </a>
                          <a
                               href="https://www.linkedin.com/in/muhamad-fajri-205110298/"
@@ -467,6 +511,5 @@
           <script>
                AOS.init();
           </script>
-          <script src="js/script.js"></script>
      </body>
 </html>

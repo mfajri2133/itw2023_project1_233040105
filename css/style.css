@@ -7,6 +7,7 @@
      font-family: "Space Mono", monospace;
 }
 
+/* style */
 html {
      scroll-behavior: smooth;
 }
@@ -14,8 +15,6 @@ html {
 body::-webkit-scrollbar {
      display: none;
 }
-
-/* style */
 
 body {
      overflow-x: hidden;
@@ -44,7 +43,7 @@ a {
 
 .navbar-nav .nav-item .nav-link.active,
 .navbar-nav .nav-item .nav-link:hover {
-     color: #67fd67;
+     color: #007bff;
 }
 
 .hero {
@@ -142,6 +141,20 @@ a {
      box-shadow: 0 6px 18px black;
 }
 
+.card:hover .card-body h5 {
+     color: #007bff;
+}
+
+.custom-card {
+     max-width: 100%;
+     height: auto;
+}
+
+.card-img-top {
+     max-width: 100%;
+     height: auto;
+}
+
 .projects {
      min-height: auto;
      padding: 5rem 2rem;
@@ -162,6 +175,19 @@ a {
      color: #fff;
      font-size: 3rem;
      margin: 0;
+}
+
+.projects .custom-carousel {
+     height: 75% !important;
+     width: 75% !important;
+}
+
+.projects .carousel-item h3 {
+     mix-blend-mode: difference;
+}
+
+.carousel-indicators .active {
+     background-color: #007bff;
 }
 
 .contact {
@@ -192,8 +218,14 @@ a {
 }
 
 .contact .container button {
-     background-color: #67fd67;
+     background-color: #007bff;
      color: black;
+     border: #fff;
+}
+
+.contact .container button:hover {
+     background-color: #fff;
+     color: #007bff;
      border: #fff;
 }
 
@@ -206,7 +238,7 @@ footer a {
 }
 
 footer a:hover {
-     color: #67fd67;
+     color: #007bff;
 }
 
 /* Style pada mobile */
@@ -214,8 +246,35 @@ footer a:hover {
      .skill h5 {
           width: 64px;
      }
+
+     .custom-card {
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+     }
+
+     .card-img-top {
+          max-width: 40%;
+     }
+
+     .card .card-body h5 {
+          font-size: 0.9rem;
+     }
+
+     .card-body {
+          flex-grow: 1;
+     }
+
+     .projects .custom-carousel {
+          height: 100% !important;
+          width: 100% !important;
+     }
 }
 
 /* Style pada tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+     .projects .custom-carousel {
+          height: 100% !important;
+          width: 100% !important;
+     }
 }
