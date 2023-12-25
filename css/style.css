@@ -151,15 +151,6 @@ nav span {
      font-weight: bold;
 }
 
-.skill .card {
-     transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.skill .card:hover {
-     transform: translateY(-10px);
-     box-shadow: 0 6px 18px black;
-}
-
 .skill .card:hover .card-body h5 {
      color: #007bff;
 }
@@ -189,20 +180,6 @@ nav span {
      color: #fff;
      font-size: 3rem;
      margin: 0;
-}
-
-.projects .custom-carousel {
-     height: 75% !important;
-     width: 75% !important;
-}
-
-.carousel-indicators .active {
-     background-color: #007bff;
-}
-
-.carousel-caption {
-     background-color: rgba(0, 0, 0, 0.5);
-     border-radius: 10px;
 }
 
 .contact {
