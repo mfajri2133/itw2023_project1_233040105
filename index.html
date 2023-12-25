@@ -282,7 +282,7 @@
                          <div
                               class="row gx-4 gy-4 d-flex justify-content-center"
                          >
-                              <div class="col-12 col-md-3 col-lg-4">
+                              <div class="col-12 col-md-4 col-lg-4">
                                    <div class="card">
                                         <img
                                              src="img/oatdaily-page.png"
@@ -303,7 +303,7 @@
                                         </div>
                                    </div>
                               </div>
-                              <div class="col-12 col-md-3 col-lg-4">
+                              <div class="col-12 col-md-4 col-lg-4">
                                    <div class="card">
                                         <img
                                              src="img/dhiyamotor-page.png"
@@ -324,7 +324,7 @@
                                         </div>
                                    </div>
                               </div>
-                              <div class="col-12 col-md-3 col-lg-4">
+                              <div class="col-12 col-md-4 col-lg-4">
                                    <div class="card">
                                         <img
                                              src="img/antarasuara-page.png"
@@ -345,7 +345,7 @@
                                         </div>
                                    </div>
                               </div>
-                              <div class="col-12 col-md-3 col-lg-4">
+                              <div class="col-12 col-md-4 col-lg-4">
                                    <div class="card">
                                         <img
                                              src="img/ftc-page.png"
@@ -366,7 +366,7 @@
                                         </div>
                                    </div>
                               </div>
-                              <div class="col-12 col-md-3 col-lg-4">
+                              <div class="col-12 col-md-4 col-lg-4">
                                    <div class="card">
                                         <img
                                              src="img/rijj-page.png"
@@ -507,12 +507,14 @@
                     $(".owl-carousel").owlCarousel({
                          loop: true,
                          margin: 10,
+                         stagePadding: 50,
                          responsiveClass: true,
                          responsive: {
                               0: {
                                    items: 1,
-                                   nav: true,
+                                   nav: false,
                                    loop: true,
+                                   autoWidth: false,
                               },
                               600: {
                                    items: 3,
@@ -521,7 +523,7 @@
                               },
                               1000: {
                                    items: 6,
-                                   nav: true,
+                                   nav: false,
                                    loop: false,
                               },
                          },
