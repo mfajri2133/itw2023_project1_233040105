@@ -83,7 +83,7 @@ nav span {
 
 .about {
      min-height: auto;
-     padding: 5rem 2rem;
+     padding: 5rem 1.5rem;
      position: relative;
 }
 
@@ -116,7 +116,7 @@ nav span {
 
 .skill {
      height: fit-content;
-     padding: 5rem 2rem;
+     padding: 5rem 1.5rem;
      position: relative;
 }
 
@@ -171,7 +171,7 @@ nav span {
 
 .projects {
      min-height: auto;
-     padding: 5rem 2rem;
+     padding: 5rem 1.5rem;
      position: relative;
 }
 
@@ -207,7 +207,7 @@ nav span {
 
 .contact {
      min-height: auto;
-     padding: 5rem 2rem 8rem;
+     padding: 5rem 1.5rem 8rem;
      position: relative;
 }
 
@@ -265,6 +265,10 @@ footer a:hover {
      .about img {
           width: 100%;
           height: auto;
+     }
+
+     .about .container .row .pt-5 {
+          padding-top: 0 !important;
      }
 
      .skill .custom-card {
