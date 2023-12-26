@@ -403,59 +403,51 @@
                          data-aos="fade-up"
                          data-aos-duration="1000"
                     >
-                         <form action="php/submit_form.php" method="POST">
+                         <form id="formEmail">
                               <div class="mb-3">
-                                   <label
-                                        for="formControlInput1"
-                                        class="form-label"
+                                   <label for="senderName" class="form-label"
                                         >Name</label
                                    >
                                    <input
                                         type="text"
                                         class="form-control spacemono"
-                                        id="formControlInput1"
+                                        id="senderName"
                                         placeholder="John Doe"
                                         name="name"
                                         required
                                    />
                               </div>
                               <div class="mb-3">
-                                   <label
-                                        for="formControlInput2"
-                                        class="form-label"
+                                   <label for="senderEmail" class="form-label"
                                         >Email</label
                                    >
                                    <input
                                         type="email"
                                         class="form-control spacemono"
-                                        id="formControlInput2"
+                                        id="senderEmail"
                                         placeholder="jhondoe@example.com"
                                         name="email"
                                         required
                                    />
                               </div>
                               <div class="mb-3">
-                                   <label
-                                        for="formControlInput3"
-                                        class="form-label"
+                                   <label for="titleMsg" class="form-label"
                                         >Title</label
                                    >
                                    <input
                                         type="text"
                                         class="form-control spacemono"
-                                        id="formControlInput3"
+                                        id="titleMsg"
                                         placeholder="What you're writing about?"
                                    />
                               </div>
                               <div class="mb-3">
-                                   <label
-                                        for="formControlTextarea1"
-                                        class="form-label"
+                                   <label for="msg" class="form-label"
                                         >Message</label
                                    >
                                    <textarea
                                         class="form-control spacemono"
-                                        id="formControlTextarea1"
+                                        id="msg"
                                         rows="6"
                                         placeholder="Full message comes here..."
                                    ></textarea>
@@ -463,6 +455,8 @@
                               <button
                                    type="submit"
                                    class="btn spacemono fw-bold"
+                                   id="submitButton"
+                                   onclick="sendEmail()"
                               >
                                    Submit
                               </button>
@@ -553,5 +547,8 @@
                     });
                });
           </script>
+
+          <!-- Eksternal JS -->
+          <script src="js/script.js"></script>
      </body>
 </html>
