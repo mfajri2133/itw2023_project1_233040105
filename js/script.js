@@ -9,17 +9,12 @@ function sendEmail() {
      var emailUrl =
           "mailto:spag.959@gmail.com" +
           "?subject=" +
-          encodeURIComponent("Inquiry: " + title) +
+          encodeURIComponent(title) +
           "&body=" +
           encodeURIComponent(
-               "Hello,\n\n" +
-                    "My name is " +
+               "Hello Fajri,\n\n" +
+                    "Name : " +
                     name +
-                    " and my email is " +
-                    email +
-                    ".\n\n" +
-                    "I am writing to inquire about: " +
-                    title +
                     "\n\n" +
                     "Message:\n" +
                     message
