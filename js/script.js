@@ -2,6 +2,7 @@ var form = document.getElementById("formEmail");
 
 function sendEmail() {
      var name = form.querySelector("#senderName").value;
+     var email = form.querySelector("#senderEmail").value;
      var title = form.querySelector("#titleMsg").value;
      var message = form.querySelector("#msg").value;
 
@@ -14,6 +15,10 @@ function sendEmail() {
                "Hello Fajri,\n\n" +
                     "Name : " +
                     name +
+                    "\n" +
+                    "Email : " +
+                    email +
+                    ".\n\n" +
                     "\n\n" +
                     "Message:\n" +
                     message
