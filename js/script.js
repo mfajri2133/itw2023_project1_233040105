@@ -12,14 +12,13 @@ function sendEmail() {
           encodeURIComponent(title) +
           "&body=" +
           encodeURIComponent(
-               "Hello Fajri,\n\n" +
-                    "Name : " +
+               "Halo Muhamad Fajri,\n\n" +
+                    "Nama saya " +
                     name +
                     "\n" +
                     "Email : " +
                     email +
                     ".\n\n" +
-                    "\n\n" +
                     "Message:\n" +
                     message
           );
