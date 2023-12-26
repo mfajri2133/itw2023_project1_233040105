@@ -403,48 +403,70 @@
                          data-aos="fade-up"
                          data-aos-duration="1000"
                     >
-                         <div class="mb-3">
-                              <label
-                                   for="exampleFormControlInput1"
-                                   class="form-label"
-                                   >Name</label
+                         <form action="submit_form.php" method="POST">
+                              <div class="mb-3">
+                                   <label
+                                        for="formControlInput1"
+                                        class="form-label"
+                                        >Name</label
+                                   >
+                                   <input
+                                        type="text"
+                                        class="form-control spacemono"
+                                        id="formControlInput1"
+                                        placeholder="John Doe"
+                                        name="name"
+                                        required
+                                   />
+                              </div>
+                              <div class="mb-3">
+                                   <label
+                                        for="formControlInput2"
+                                        class="form-label"
+                                        >Email</label
+                                   >
+                                   <input
+                                        type="email"
+                                        class="form-control spacemono"
+                                        id="formControlInput2"
+                                        placeholder="jhondoe@example.com"
+                                        name="email"
+                                        required
+                                   />
+                              </div>
+                              <div class="mb-3">
+                                   <label
+                                        for="formControlInput3"
+                                        class="form-label"
+                                        >Title</label
+                                   >
+                                   <input
+                                        type="text"
+                                        class="form-control spacemono"
+                                        id="formControlInput3"
+                                        placeholder="What you're writing about?"
+                                   />
+                              </div>
+                              <div class="mb-3">
+                                   <label
+                                        for="formControlTextarea1"
+                                        class="form-label"
+                                        >Message</label
+                                   >
+                                   <textarea
+                                        class="form-control spacemono"
+                                        id="formControlTextarea1"
+                                        rows="6"
+                                        placeholder="Full message comes here..."
+                                   ></textarea>
+                              </div>
+                              <button
+                                   type="submit"
+                                   class="btn spacemono fw-bold"
                               >
-                              <input
-                                   type="text"
-                                   class="form-control spacemono"
-                                   id="exampleFormControlInput1"
-                                   placeholder="John Doe"
-                              />
-                         </div>
-                         <div class="mb-3">
-                              <label
-                                   for="exampleFormControlInput1"
-                                   class="form-label"
-                                   >Title</label
-                              >
-                              <input
-                                   type="email"
-                                   class="form-control spacemono"
-                                   id="exampleFormControlInput1"
-                                   placeholder="What you're writing about?"
-                              />
-                         </div>
-                         <div class="mb-3">
-                              <label
-                                   for="exampleFormControlTextarea1"
-                                   class="form-label"
-                                   >Message</label
-                              >
-                              <textarea
-                                   class="form-control spacemono"
-                                   id="exampleFormControlTextarea1"
-                                   rows="6"
-                                   placeholder="Full message comes here..."
-                              ></textarea>
-                         </div>
-                         <button type="button" class="btn spacemono fw-bold">
-                              Submit
-                         </button>
+                                   Submit
+                              </button>
+                         </form>
                     </div>
                </section>
           </div>
