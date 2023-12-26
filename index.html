@@ -403,8 +403,12 @@
                          data-aos="fade-up"
                          data-aos-duration="1000"
                     >
-                         <form id="formEmail">
+                         <form onsubmit="return false;" id="formEmail">
                               <div class="mb-3">
+                                   <p id="completionMessage">
+                                        *Lengkapi Form Agar Bisa Mengirim Pesan
+                                        !!
+                                   </p>
                                    <label for="senderName" class="form-label"
                                         >Name</label
                                    >
@@ -457,6 +461,7 @@
                                    class="btn spacemono fw-bold"
                                    id="submitButton"
                                    onclick="sendEmail()"
+                                   disabled
                               >
                                    Submit
                               </button>

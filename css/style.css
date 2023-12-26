@@ -213,15 +213,15 @@ nav span {
      max-width: 500px;
 }
 
+.contact .container form p {
+     color: red;
+     font-size: 0.9rem;
+     margin-bottom: 0;
+}
+
 .contact .container button {
      background-color: #007bff;
      color: #fff;
-     border: #fff;
-}
-
-.contact .container button:hover {
-     background-color: #fff;
-     color: #007bff;
      border: #fff;
 }
 
@@ -274,6 +274,12 @@ footer a:hover {
      .projects .custom-carousel {
           height: 100% !important;
           width: 100% !important;
+     }
+
+     .contact .container form p {
+          color: red;
+          font-size: 0.7rem;
+          margin-bottom: 0;
      }
 }
 
